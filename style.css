@@ -62,7 +62,7 @@ body {
 .hero {
   min-height: 100vh;
   display: flex;
-  background: url(./Images/0ac0ccb8807371350bfdf782cbfc919a.jpg);
+  background: url(./Images/background.jpg);
   background-image: cover;
   background-position: center;
   justify-content: center;
@@ -110,4 +110,61 @@ body {
     background-position: center;
   }
 
+}
+
+/* servie page */
+
+.menu-section {
+  padding: 120px 40px 60px;
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.menu-section p {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.menu-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  padding: 30px;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.menu-card h3 {
+  margin: 15px 0 5px;
+}
+
+.menu-card p {
+  font-size: 14px;
+  padding: 0 15px;
+}
+
+.menu-card span {
+  display: block;
+  margin: 10px 0 15px;
+  font-weight: bold;
+  color: #f4b400;
 }
