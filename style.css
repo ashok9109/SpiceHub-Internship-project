@@ -31,6 +31,24 @@ body {
 
 .nav-links {
   display: none;
+  position: absolute;
+  top: 65px;
+  right: 0;
+  background: #111;
+  flex-direction: column;
+  width: 200px;
+  display: none;
+  padding: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.nav-links.active {
+  display: flex;
 }
 
 /* responsive nav  */
@@ -43,6 +61,11 @@ body {
 
   .nav-links {
     display: flex;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
     gap: 25px;
   }
 
