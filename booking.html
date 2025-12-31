@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Table | SpiceHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <!-- nav bar -->
+        <div class="navbar">
+            <div class="logo">SpiceHub</div>
+
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Menu</a>
+                <a href="booking.html">Book Table</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="menu-toggle">☰</div>
+        </div>
+
+        <!-- booking page -->
+        <section class="booking-section">
+            <h2>Reserve Your Table</h2>
+            <p>Book your dining experience with us</p>
+
+            <form class="booking-form">
+
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required />
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email Address" required />
+                </div>
+
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Phone Number" required />
+                </div>
+
+                <div class="form-group">
+                    <input type="date" id="date" required />
+                </div>
+
+                <div class="form-group">
+                    <input type="time" id="time" required />
+                </div>
+
+                <div class="form-group">
+                    <select id="guests" required>
+                        <option value="">Number of Guests</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5+</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Book Now</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>

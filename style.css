@@ -129,18 +129,19 @@ body {
   margin-bottom: 40px;
 }
 
-.menu{
+.menu {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   gap: 20px;
 }
+
 .menu-card {
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
   padding: 30px;
 }
@@ -174,10 +175,54 @@ body {
 
 /* service page responsive  */
 
-@media (min-width:768px){
+@media (min-width:768px) {
 
-  .menu{
+  .menu {
     display: flex;
     flex-direction: row;
   }
+}
+
+/* booking page code */
+
+.booking-section {
+  padding: 120px 20px 60px;
+  text-align: center;
+}
+
+.booking-section h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.booking-section p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.booking-form {
+  max-width: 450px;
+  margin: auto;
+  background-color: gray;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
