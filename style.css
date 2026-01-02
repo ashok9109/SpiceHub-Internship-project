@@ -249,3 +249,55 @@ body {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+
+.success-msg {
+  color: green;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* contact page code */
+
+.contact-section {
+  padding: 120px 20px 60px;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 900px;
+  margin: auto;
+
+}
+
+.contact-form {
+  background-color: gray;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: black;
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.contact-info {
+  text-align: left;
+  margin-top: 30px;
+}

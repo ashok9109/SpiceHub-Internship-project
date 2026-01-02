@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | SpiceHub</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main>
+        <!-- nav bar -->
+        <div class="navbar">
+            <div class="logo">SpiceHub</div>
+
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Menu</a>
+                <a href="booking.html">Book Table</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="menu-toggle">☰</div>
+        </div>
+
+        <!-- contact from -->
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <p>We love to hear from you</p>
+
+            <div class="contact-container">
+
+                <form class="contact-form" id="contactForm">
+
+                    <input type="text" id="cname" placeholder="Your Name" required>
+                    <input type="email" id="cemail" placeholder="Email Address" required>
+                    <textarea id="cmessage" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="btn">Send Message</button>
+                    <p class="success-msg" id="contactSuccess"></p>
+
+                </form>
+                <div class="contact-info">
+                    <h3>Visit Us</h3>
+                    <p>📍 45 Food Street, Bhopal</p>
+                    <p>📞 +91 1234567890</p>
+                    <p>📧 contact@spicehub.com</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/script.js"></script>
+</body>
+
+</html>
